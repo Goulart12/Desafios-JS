@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(243.18deg, #9002FF 0%, #00F0FF 100%) no-repeat;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    display: inline-flex;
+    margin-top: 160px;
+    margin-bottom: 74px;
+}
+
+.title h1 {
+    font-size: 72px;
+    color: white;
+    margin-right: 14px;
+}
+
+.title img {
+    height: 70px;
+    width: 70px;
+}
+
+.dolar-real {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.dolar-real .content-text {
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+
+.dolar-real .content-text p {
+    font-size: 36px;
+    color: white;
+    margin-right: 13px;
+}
+
+.dolar-real .content-text img {
+    height: 40px;
+    width: 40px;
+}
+
+.dolar-real .entrada {
+    display: inline-flex;
+}
+
+.dolar-real .entrada input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #FFF;
+}
+
+.dolar-real .entrada button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #9002FF;
+}
+
+.dolar-real .entrada button img {
+    height: 20px;
+    width: 20px;
+}
+
+.libra-dolar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.libra-dolar .content-text {
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+
+.libra-dolar .content-text p {
+    font-size: 36px;
+    color: white;
+    margin-right: 13px;
+}
+
+.libra-dolar .content-text img {
+    height: 40px;
+    width: 40px;
+}
+
+.libra-dolar .entrada {
+    display: inline-flex;
+}
+
+.libra-dolar .entrada input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #FFF;
+}
+
+.libra-dolar .entrada button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #9002FF;
+}
+
+.libra-dolar .entrada button img {
+    height: 20px;
+    width: 20px;
+}
+
+.celsius-fahr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.celsius-fahr .content-text {
+    display: inline-flex;
+    margin-bottom: 30px;
+}
+
+.celsius-fahr .content-text p {
+    font-size: 36px;
+    color: white;
+    margin-right: 13px;
+}
+
+.celsius-fahr .content-text img {
+    height: 40px;
+    width: 40px;
+}
+
+.celsius-fahr .entrada {
+    display: inline-flex;
+}
+
+.celsius-fahr .entrada input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #FFF;
+}
+
+.celsius-fahr .entrada button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #9002FF;
+}
+
+.celsius-fahr .entrada button img {
+    height: 20px;
+    width: 20px;
+}
+
