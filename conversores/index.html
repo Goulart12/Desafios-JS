@@ -15,6 +15,13 @@
             <img src="./assets/sync.png" alt="Símbolo de conversão">
         </div>
 
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                
+            </div>
+        </div>
+
         <div class="content">
             <div class="dolar-real">
                 <div class="content-text">
@@ -23,19 +30,19 @@
                 </div>
 
                 <div class="entrada">
-                    <input type="text">
-                    <button><img src="./assets/Group.png" alt="Botão de conversao"></button>
+                    <input type="text" id="dolarToReal">
+                    <button id="btnDolarToReal" onclick="dolarParaReal()"><img src="./assets/Group.png" alt="Botão de conversao"></button>
                 </div>
             </div>
 
-            <div class="libra-dolar">
+            <div class="libra-real">
                <div class="content-text">
-                    <p>Libra para dólar</p>
+                    <p>Libra para Real</p>
                     <img src="./assets/libra-britanica.png" alt="Libra">
                </div>
                 <div class="entrada">
-                    <input type="text">
-                    <button><img src="./assets/Group.png" alt="Botão de conversao"></button>
+                    <input type="text" id="libraToReal">
+                    <button id="btnLibraToReal" onclick="libraParaReal()"><img src="./assets/Group.png" alt="Botão de conversao"></button>
                 </div>
             </div>
 
@@ -45,11 +52,12 @@
                     <img src="./assets/celsius.png" alt="Temperatura">
                 </div>
                 <div class="entrada">
-                    <input type="text">
-                    <button><img src="./assets/Group.png" alt="Botão de conversao"></button>
+                    <input type="text" id="celsiusToFahr">
+                    <button id="btnCelsiusToFahr" onclick="celsiusParaFahr()"><img src="./assets/Group.png" alt="Botão de conversao"></button>
                 </div>
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>

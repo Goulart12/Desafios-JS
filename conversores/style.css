@@ -84,7 +84,7 @@ section {
     width: 20px;
 }
 
-.libra-dolar {
+.libra-real {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,41 +92,41 @@ section {
     margin-bottom: 30px;
 }
 
-.libra-dolar .content-text {
+.libra-real .content-text {
     display: inline-flex;
     margin-bottom: 30px;
 }
 
-.libra-dolar .content-text p {
+.libra-real .content-text p {
     font-size: 36px;
     color: white;
     margin-right: 13px;
 }
 
-.libra-dolar .content-text img {
+.libra-real .content-text img {
     height: 40px;
     width: 40px;
 }
 
-.libra-dolar .entrada {
+.libra-real .entrada {
     display: inline-flex;
 }
 
-.libra-dolar .entrada input {
+.libra-real .entrada input {
     width: 200px;
     height: 40px;
     border: none;
     background: #FFF;
 }
 
-.libra-dolar .entrada button {
+.libra-real .entrada button {
     width: 40px;
     height: 40px;
     border: none;
     background: #9002FF;
 }
 
-.libra-dolar .entrada button img {
+.libra-real .entrada button img {
     height: 20px;
     width: 20px;
 }
@@ -177,4 +177,50 @@ section {
     height: 20px;
     width: 20px;
 }
+
+.modal {
+    visibility: hidden;
+    position: fixed;
+    width: 800px;
+    height: 400px;
+    box-sizing: border-box;
+    background: #FFF;
+    border: solid 3px #9002FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .modal-content .modal-title {
+    font-size: 48px;
+    background: -webkit-linear-gradient(243.18deg, #9002FF 0%, #00F0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -80px;
+    margin-bottom: 100px;
+}
+
+.modal .modal-content .modal-valor {
+    font-size: 48px;
+    background: -webkit-linear-gradient(243.18deg, #9002FF 0%, #00F0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.close {
+    color: #9002FF;
+    position: relative;
+    left: 500px;
+    bottom: 90px;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #00F0FF;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
