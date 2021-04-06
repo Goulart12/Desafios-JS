@@ -4,12 +4,13 @@ function dolarParaReal() {
 
     var resultado = valorNumero * 5.71;
     var divModal = document.getElementsByClassName('modal-content');
-    var mostrarTitulo = `<h2 class="modal-title">Sua conversão</h2>`
-    var mostrarValor = `<p class="modal-valor">O valor convertido é: ${resultado}</p>`
+    var mostrarValor = `<p>O valor convertido é: ${resultado}</p>`;
+    
 
-    divModal.innerHTML = mostrarTitulo + mostrarValor;
+    divModal.innerHTML = mostrarValor;
     myModal.style.visibility = "visible";
-    fecharModal();
+    
+    
 }
 
 function libraParaReal() {
@@ -20,7 +21,6 @@ function libraParaReal() {
     console.log(resultado)
 
     myModal.style.visibility = "visible";
-    fecharModal();
 }
 
 function celsiusParaFahr() {
@@ -31,7 +31,6 @@ function celsiusParaFahr() {
     console.log(resultado)
 
     myModal.style.visibility = "visible";
-    fecharModal();
 }
 
 var span = document.getElementsByClassName("close")[0]

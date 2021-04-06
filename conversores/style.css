@@ -192,7 +192,7 @@ section {
     justify-content: center;
 }
 
-.modal .modal-content .modal-title {
+.modal .modal-content  h2{
     font-size: 48px;
     background: -webkit-linear-gradient(243.18deg, #9002FF 0%, #00F0FF 100%);
     -webkit-background-clip: text;
@@ -201,7 +201,7 @@ section {
     margin-bottom: 100px;
 }
 
-.modal .modal-content .modal-valor {
+.modal .modal-content  p{
     font-size: 48px;
     background: -webkit-linear-gradient(243.18deg, #9002FF 0%, #00F0FF 100%);
     -webkit-background-clip: text;
