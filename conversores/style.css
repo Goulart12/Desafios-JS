@@ -199,6 +199,7 @@ section {
     -webkit-text-fill-color: transparent;
     margin-top: -80px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .modal .modal-content  p{
@@ -211,7 +212,7 @@ section {
 .close {
     color: #9002FF;
     position: relative;
-    left: 500px;
+    left: 600px;
     bottom: 90px;
     font-size: 48px;
     font-weight: bold;
