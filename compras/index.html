@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de compras</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div class="card-entrada">
+            <div class="div-inserir">
+                <h1 class="titulo-inserir">Insira sua Lista</h1>
+                <input type="text" class="input-inserir" placeholder="Insira um item">
+                <button class="button-inserir">Inserir</button>
+            </div>
+
+            <div class="div-remover">
+                <h1 class="titulo-remover">Remova sua Lista</h1>
+                <input type="text" class="input-remover" placeholder="Insira um item">
+                <button class="button-remover">Remover</button>
+            </div>
+        </div>
+
+        <div class="card-saida">
+            <h1 class="titulo-saida">Lista de compras</h1>
+            <ul class="lista-saida" id="lista"></ul>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
