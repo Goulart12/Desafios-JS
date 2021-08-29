@@ -1,5 +1,16 @@
+var listaCompras = []
+
+
+function inserirArray() {
+    let dados = document.getElementById('dadinhos').value
+    listaCompras.push(dados)
+    
+    return listaCompras[]
+}
+
+
 function gerar() {
-    let frutas = ["Banana", "Morango", "Uva"]
+    let frutas = ["Banana", "Morango", "Uva", "Batata", "Maçã", "Pão"]
     let lista = document.getElementById('lista')
 
     for(var i = 0; i < frutas.length; i++) {
