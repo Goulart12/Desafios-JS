@@ -1,14 +1,18 @@
-var nomes = ['Carlos', 'João', 'Paulo']
+// var data = Date.now();
 
-var primeiro = nomes[2]
+// console.log(data);
 
+function makeAdder(a) {
+    return function(b) {
+        return a + b;
+    };
+}
 
+var x = makeAdder(5);
+var y = makeAdder(20);
 
-nomes.forEach(function (item, indice, array) {
-    console.log(item, indice)
-})
+x(6);
+y(7);
 
-
-
-//console.log(nomes.length)
-//console.log(primeiro)
+console.log(x)
+console.log(y)
